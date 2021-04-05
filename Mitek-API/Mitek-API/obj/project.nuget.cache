@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IXvk8NXzvVg9WZXfbba1hJCypIkbIFmJ/T+SXZN/O+AAyxx8n4eVktehyrHm9Q5F5Zxdj74o74Nc+FXsHy9EMw==",
+  "dgSpecHash": "tF7iKiWnZlRZLQSSsYUx4Qsv1vRrw7N0UkN8G9nK+AjHDuRuC6axJkzLDcDETi8C9om9nssx+URPtlEbHVwITw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj",
+  "projectFilePath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -20,6 +20,8 @@
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.2\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"

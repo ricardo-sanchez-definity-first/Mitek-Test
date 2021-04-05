@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj": {}
+    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj": {
+    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj",
+        "projectUniqueName": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj",
         "projectName": "Mitek-API",
-        "projectPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj",
+        "projectPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj",
         "packagesPath": "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\obj\\",
+        "outputPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo.sanchez.SIEENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0-alpha.2, )"
             }
           },
           "imports": [
