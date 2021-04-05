@@ -15,5 +15,20 @@ namespace Mitek_API.Db
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+
+            //Entity to table.
+            builder.Entity<Product>().ToTable("Products");
+
+            //Primary key
+            builder.Entity<Product>().HasKey(p => p.Id).HasName("id");
+
+            builder.Entity<Product>().Property(p => p.Id).IsRequired().HasColumnType("int");
+            builder.Entity<Product>().Property(p => p.Category).IsRequired().HasColumnType("int");
+            builder.Entity<Product>().Property(p => p.Description).IsRequired().HasColumnType("varchar(200)");
+            builder.Entity<Product>().Property(p => p.Name).IsRequired().HasColumnType("varchar(100)");
+        }
     }
 }
