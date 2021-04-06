@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj": {}
+    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj": {
+    "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj",
+        "projectUniqueName": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj",
         "projectName": "Mitek-API",
-        "projectPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\Mitek-API.csproj",
+        "projectPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj",
         "packagesPath": "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\mitek-api\\obj\\",
+        "outputPath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo.sanchez.SIEENA\\AppData\\Roaming\\NuGet\\NuGet.Config",

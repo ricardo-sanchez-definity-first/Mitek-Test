@@ -14,43 +14,85 @@ namespace Mitek_API.Controllers
     [ApiController]
     public class Products : ControllerBase
     {
-        private ProductsContext _context;
+        private IDbContext _context;
 
-        public Products(ProductsContext context)
+        public Products(IDbContext context)
         {
             _context = context;
         }
 
         // GET: api/<Products>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<Product[]> Get()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                var products = await _context.GetProducts();
+                return products.ToArray();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         // GET api/<Products>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<Product> Get(int id)
         {
-            return "value";
+            try
+            {
+                return await _context.GetProduct(id);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         // POST api/<Products>
         [HttpPost]
-        public void Post([FromBody] Product product)
+        public async Task<Product> Post([FromBody] Product product)
         {
+            try
+            {
+                var result = await _context.AddProduct(product);
+                return product;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         // PUT api/<Products>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<Product> Put(int id, [FromBody] Product product)
         {
+            try
+            {
+                var result = await _context.UpdateProduct(id, product);
+                return product;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         // DELETE api/<Products>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<bool> Delete(int id)
         {
+            try
+            {
+                var result = await _context.DeleteProduct(id);
+                return result > 1 ? true : false;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
 }
