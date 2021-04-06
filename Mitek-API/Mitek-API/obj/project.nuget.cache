@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nQjLJdzUDOrUpPDbrcQSdo7M9CaAp+mh0XITzK3pVX5/VjRFlMm0c/CNIq78O6XA31z31JgKnYK/f2nHWWqq+Q==",
+  "dgSpecHash": "LesUI1dkxBY4QaLrQyXgArt2n/6FuHfv7Tqk8De52wGhSlVOZTzVl9LTB53DOPH2q8/LWJTC0bq/vZOtLX4b+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricardo.sanchez.SIEENA\\Documents\\Mitek-Test\\Mitek-API\\Mitek-API\\Mitek-API.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.2\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",
     "C:\\Users\\ricardo.sanchez.SIEENA\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",

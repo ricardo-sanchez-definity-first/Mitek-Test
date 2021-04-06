@@ -33,8 +33,8 @@ C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\bin\Deb
 C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\bin\Debug\netcoreapp3.1\Mitek-API.pdb
 C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\obj\Debug\netcoreapp3.1\Mitek-API.csproj.CoreCompileInputs.cache
-C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\obj\Debug\netcoreapp3.1\Mitek-API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\obj\Debug\netcoreapp3.1\Mitek-API.dll
 C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\obj\Debug\netcoreapp3.1\Mitek-API.pdb
 C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\mitek-api\obj\Debug\netcoreapp3.1\Mitek-API.genruntimeconfig.cache
+C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\Mitek-API\obj\Debug\netcoreapp3.1\Mitek-API.csproj.CoreCompileInputs.cache
+C:\Users\ricardo.sanchez.SIEENA\Documents\Mitek-Test\Mitek-API\Mitek-API\obj\Debug\netcoreapp3.1\Mitek-API.MvcApplicationPartsAssemblyInfo.cache
