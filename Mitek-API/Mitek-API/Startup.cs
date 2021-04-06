@@ -29,22 +29,24 @@ namespace Mitek_API
         {
             string mySqlConnection = Configuration.GetConnectionString("DefaultConnection");
             services.
-                AddDbContextPool<ProductsContext>(options => 
+                AddDbContextPool<ProductsContext>(options =>
                 options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
             services.AddControllers();
             services.AddTransient<IDbContext, ProductsContext>();
-            services.AddCors(o => o.AddPolicy("AnyOrigin", builder =>
-            {
-                builder.AllowAnyOrigin()
-                       .AllowAnyMethod()
-                       .AllowAnyHeader();
-            }));
+            services.AddCors(o => o.AddPolicy(name: "AngularPolicy",
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                }
+            ));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseCors("AnyOrigin");
+            app.UseCors("AngularPolicy");
 
             if (env.IsDevelopment())
             {
