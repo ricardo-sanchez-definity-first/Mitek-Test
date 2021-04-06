@@ -49,7 +49,7 @@ namespace Mitek_API.Db
             {
                 return await Products.ToListAsync();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw;
             }
@@ -61,7 +61,7 @@ namespace Mitek_API.Db
             {
                 return await Products.FindAsync(id).AsTask();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw;
             }
@@ -74,30 +74,21 @@ namespace Mitek_API.Db
                 Products.Add(product);
                 return await SaveChangesAsync();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw;
             }
         }
 
-        public async Task<bool> UpdateProduct(int id, Product product)
+        public async Task<int> UpdateProduct(int id, Product product)
         {
-            var oldProduct = Products.FirstOrDefault(p => p.Id == id);
             try
             {
-                if(oldProduct != null)
-                {
-                    product.Id = oldProduct.Id;
-                    oldProduct = product;
-                    SaveChanges();
-                    return await Task.Run(() => true);
-                }
-                else
-                {
-                    return await Task.Run(() => false);
-                }
+                Products.Update(product);
+                return await SaveChangesAsync();
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw;
             }
@@ -111,7 +102,7 @@ namespace Mitek_API.Db
                 Products.Remove(productToRemove);
                 return SaveChangesAsync();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw;
             }

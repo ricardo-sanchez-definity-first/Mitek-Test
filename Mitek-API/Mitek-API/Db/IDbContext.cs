@@ -11,7 +11,7 @@ namespace Mitek_API.Db
         Task<List<Product>> GetProducts();
         Task<Product> GetProduct(int id);
         Task<int> AddProduct(Product product);
-        Task<bool> UpdateProduct(int id, Product product);
+        Task<int> UpdateProduct(int id, Product product);
         Task<int> DeleteProduct(int id);
         Task<List<User>> GetUsers();
         Task<User> GetUser(int id);

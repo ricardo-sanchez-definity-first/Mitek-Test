@@ -1,6 +1,8 @@
 <div class="detail-container">
-  ID: {{product.id}}
-  NAME: {{product.name}}
-  CATEGORY: {{product.category}}
-  DESCRIPTION: {{product.description}}
+  <div>ID: {{product.id}}</div>
+  <div>NAME: {{product.name}}</div>
+  <div>CATEGORY: {{product.category}}</div>
+  <div>DESCRIPTION: {{product.description}}</div>
+  <button mat-raised-button type="button" (click)="editProduct()">Edit</button>
+  <button mat-raised-button type="button" (click)="deleteProduct()">Delete</button>
 </div>
